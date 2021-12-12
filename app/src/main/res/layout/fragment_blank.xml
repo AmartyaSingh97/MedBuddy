@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/how_can_we_help"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:padding="16dp"
+        android:background="@color/Royal_Blue"/>
+
+    <Button
+        android:id="@+id/hospital"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:background="@color/Royal_Blue"
+        android:text="@string/hospitals_near_me"
+        android:textColor="@color/white"
+        app:backgroundTint="#246EE9" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:background="@color/Royal_Blue"
+        android:text="@string/oxygen_supplies"
+        app:backgroundTint="#246EE9" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:background="@color/Royal_Blue"
+        android:text="@string/buy_medicines"
+        app:backgroundTint="#246EE9" />
+
+</FrameLayout>

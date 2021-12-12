@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MedBuddy</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="how_can_we_help">How can we help ?</string>
+    <string name="hospitals_near_me">Hospitals Near me</string>
+    <string name="oxygen_supplies">Oxygen Supplies</string>
+    <string name="buy_medicines">Buy Medicines</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="account_login">Account Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="repeat_password">Repeat Password</string>
+
+</resources>
